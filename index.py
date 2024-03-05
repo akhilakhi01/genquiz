@@ -3,7 +3,7 @@ import json
 from google import generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi as yta
 
-genai.configure(api_key='AIzaSyDwcocYIHnJsdhzM7xUyzquWo645tFHCYA')
+genai.configure(api_key='xxxxxxxxxxxxxxxxxxxxxxxxxx')
 model = genai.GenerativeModel("gemini-pro")
 
 def getVideoId(url: str):
