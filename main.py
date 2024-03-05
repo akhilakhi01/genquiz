@@ -2,7 +2,7 @@ import streamlit as st
 import json
 from google import generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi as yta
-genai.configure(api_key='AIzaSyDwcocYIHnJsdhzM7xUyzquWo645tFHCYA')
+genai.configure(api_key='xxxxxxxxxxxxxxxxxxxxxxxxx')
 model = genai.GenerativeModel("gemini-pro")
 def getVideoId(url:str):
     return url.split("=")[1]
